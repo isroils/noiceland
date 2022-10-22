@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.container {
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.header__item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__li {
+    display: flex;
+    padding-right: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.japan {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.japan__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.japan__name {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.japan__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    max-width: 430px;
+    width: 100%;
+}
+
+.japan__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    padding-left: 50px;
+    max-width: 420px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.japan__btn {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 50px;
+}
+
+.helmut {
+    padding-bottom: 30px;
+}
+
+.helmut__ul {
+    display: flex;
+    padding: 50px;
+}
+
+.helmut__name {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-top: 25px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.helmut__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 15px;
+    max-width: 347px;
+    width: 100%;
+}
+
+.helmut__img {
+    padding-right: 50px;
+}
+
+.helmut__txt {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.hause {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.hause__titl {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    display: flex;
+    padding-left: 50px;
+}
+
+.hause__ul {
+    display: flex;
+    padding: 50px;
+}
+
+.hause__img {
+    padding-right: 50px;
+}
+
+.hause__name {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.hause__title {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 276px;
+    width: 100%;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.hause__txt {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.all__btn {
+    width: 205px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    transition: 0.5s;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 15px;
+    text-align: center;
+}
+
+.all__banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.fifa__item {
+    padding-bottom: 60px;
+}
+
+.fifa__link {
+    display: flex;
+    padding: 30px;
+}
+
+.fifa__li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.fifa__names {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-left: 60px;
+    display: flex;
+    padding-top: 60px;
+}
+
+.fifa__name {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    padding-top: 25px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.fifa__title {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 500px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.fifa__btn {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.footer {
+    background: #141414;
+}
+
+.footer__content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer__name {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+.footer__img {
+    padding-right: 15px;
+}
